@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>密码修改</title>
+</head>
+<style type="text/css">
+#apDiv2 {
+	position: absolute;
+	width: 190px;
+	height: 23px;
+	z-index: 2;
+	left: 210px;
+	top: 2px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+}
+</style>
+<body>
+<div align="center">
+  <TABLE WIDTH=321 height="236" BORDER=0 align="center">
+	<TR><TD><div align="center"><H3><font color="#985AAF">教务员密码修改</font></div></TD></TR>
+	<TR>
+    <TD width="240" height="164" >
+    <form  id = "denglu" name ="denglu" method="post" action="PWDupdate.asp" >
+      <table width="100%" border="0" align="center">
+        <tr> 
+          <td width="22%"> 
+            <div align="center">旧密码</div>
+          </td>
+          <td width="78%"> 
+            <input type="password" name="jiumima" class=inputno maxlength="16">
+          </td>
+        </tr>
+        <tr> 
+          <td width="22%"> 
+            <div align="center">新密码</div>
+            </td>
+          <td width="78%"> 
+            <input type="password"  name="newuserPass1" class=inputno maxlength="16" onkeydown="tijiao()">
+            </td>
+        </tr>
+        <tr> 
+         <td width="22%"> 
+            <div align="center">新密码</div>
+          </td>
+           <td width="78%"> 
+            <input type="password"  name="newuserPass2" class=inputno maxlength="16" onkeydown="tijiao()">
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td colspan="2" height="52"> 
+            <div align="center">
+              <input type="submit" name="Submit22" value="提交"  onClick="return check();">
+              &nbsp;&nbsp; 
+              <input type="reset" name="Submit32" value="重置" >
+              &nbsp;&nbsp;</div>
+          </td>
+        </tr>
+      </table>
+      </form>
+    </TD>
+	</TR>
+  </table>
+</div>
+</body>
+</html>

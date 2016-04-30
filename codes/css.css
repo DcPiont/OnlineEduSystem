@@ -1,0 +1,24 @@
+@charset "gb2312";
+.TableBorder {
+	border: #833F91;
+    border-style: solid;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+}
+.TableName {
+	background-color: #9259B0;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+
+.TableFont {
+	font-size: 16px;
+}
+.TextField {
+}
+.tdTittle {
+	background-color: #EAE2F3;
+}

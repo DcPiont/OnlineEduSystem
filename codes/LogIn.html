@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>用户登录</title>
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 630px;
+	height: 239px;
+	z-index: 1;
+	left: 33px;
+	top: 125px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 190px;
+	height: 23px;
+	z-index: 2;
+	left: 210px;
+	top: 2px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+}
+</style>
+</head>
+
+<body>
+<div id="apDiv1" align="center">
+  <TABLE WIDTH=321 height="236" BORDER=0 align="center">
+	<TR><TD><div align="center"><H3>
+    <font color="#985AAF">&nbsp;&nbsp;&nbsp;&nbsp;教务员网上管理系统</font></div></TD></TR>
+	<TR>
+    <TD width="240" height="164" >
+    <form name ="denglu" method="post" action="LogIn.asp" >
+      <table width="100%" border="0" align="center">
+        <tr> 
+          <td width="22%"> 
+            <div align="center">用户名：</div>
+          </td>
+          <td width="78%"> 
+            <input type="text" name="userId" class=inputno maxlength="16">
+          </td>
+        </tr>
+        <tr> 
+          <td width="22%">&nbsp;</td>
+          <td width="78%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="22%"> 
+            <div align="center">密&nbsp;&nbsp;&nbsp;码：</div>
+          </td>
+          <td width="78%"> 
+            <input type="password"  name="userPass" class=inputno maxlength="10" onkeydown="tijiao()">
+          </td>
+        </tr>
+        <tr> 
+          <td colspan="2" height="25">&nbsp;</td>
+        </tr>
+        <tr valign="top"> 
+          <td colspan="2" height="37"> 
+            <div align="center">
+              <input type="submit" name="Submit22" value="提交"  onClick="return check();" >
+              &nbsp;&nbsp; 
+              <input type="reset" name="Submit32" value="重置" >
+              &nbsp;&nbsp;</div>
+          </td>
+        </tr>
+      </table>
+      </form>
+    </TD>
+	</TR>
+  </table>
+</div>
+</body>
+</html>
